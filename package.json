@@ -1,0 +1,28 @@
+{
+  "name": "encarguez.sia",
+  "version": "1.0.0",
+  "description": "Activities",
+  "keywords": [
+    "sia",
+    "activities",
+    "default"
+  ],
+  "homepage": "https://github.com/KenziiKen/Encarguez-SIA#readme",
+  "bugs": {
+    "url": "https://github.com/KenziiKen/Encarguez-SIA/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenziiKen/Encarguez-SIA.git"
+  },
+  "license": "ISC",
+  "author": "encarguez, ken shinn",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
