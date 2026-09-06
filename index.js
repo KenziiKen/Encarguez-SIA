@@ -3,7 +3,7 @@ const express = require('express');
 
 //server setup
 const server = express()
-const PORT = 2607
+const PORT = 0o726
 const HOSTNAME ='0.0.0.0'
 server.listen(PORT, HOSTNAME, () => {
     console.log(`Server is running: ${HOSTNAME}:${PORT}`);
