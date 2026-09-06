@@ -7,8 +7,11 @@ const server = express()
 const PORT = 3000
 // const HOSTNAME ='0.0.0.0'
 
-server.listen(PORT, HOSTNAME, () => {
-    // console.log(`Server is running: ${HOSTNAME}:${PORT}`);
+// server.listen(PORT, HOSTNAME, () => {
+//     console.log(`Server is running: ${HOSTNAME}:${PORT}`);
+// })
+
+server.listen(PORT, () => {
     console.log(`Server is running: ${PORT}`);
 })
 
